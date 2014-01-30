@@ -11,28 +11,28 @@ special_squares = { :good => ["Go", "Free Parking", "Just Visiting"],
                     :bad => ["Go To Jail", "Luxury Tax"]
                   }
 
-#Q1. How much does it cost to buy Baltic?
-#A1: Here's the answer:
+#Q1 How much does it cost to buy Baltic?
+#A1 Here's the answer:
 puts cheap_property[:price]
 
-#Q2. How much does it cost to buy Boardwalk?
+#Q2 "How much does it cost to buy Boardwalk?"
 #A2: Your code goes here:
-
+puts rich_property[:price]
 
 
 #Q3. How much is rent for Baltic?
 #A3: Your code goes here:
-
+puts cheap_property[:rent]
 
 
 #Q4. How much does it cost to buy New York Ave?
 #A4: Your code goes here:
-
+puts more_properties[2][:rent]
 
 
 #Q5: How many "good" special squares are there?
 #A5: Your code goes here:
-
+puts special_squares[:good].count
 
 
 
